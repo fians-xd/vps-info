@@ -49,7 +49,7 @@ clear
 # Header
 neofetch
 echo "====================================="
-echo "           System Information        "
+echo "         System Information        "
 echo "====================================="
 
 # Output ISP
