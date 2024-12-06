@@ -82,5 +82,6 @@ draw_bar $disk_percentage
 printf "\n"
 
 # Footer
+echo " "
 echo "====================================="
 echo " "
