@@ -2,6 +2,9 @@
 
 apt update && apt upgrade -y
 apt install neofetch -y
+sudo apt-get install curl -y
+curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
+sudo apt-get install speedtest -y
 
 # Fungsi untuk menggambar grafik bar
 draw_bar() {
@@ -85,3 +88,4 @@ printf "\n"
 echo " "
 echo "====================================="
 echo " "
+speedtest
